@@ -1,14 +1,33 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.deb
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
 
-pkg/
-src/
+       1 # Python
+       2 __pycache__/
+       3 *.py[cod]
+       4 *$py.class
+       5
+       6 # Build and Distribution
+       7 dist/
+       8 build/
+       9 site/
+      10
+      11 # Obsidian
+      12 # You may want to keep some obsidian settings, but workspace.json is usually local-only
+      13 .obsidian/workspace.json
+      14 .obsidian/workspace-mobile.json
+      15 .obsidian/graph.json
+      16 .obsidian/appearance.json
+      17
+      18 # OS specific
+      19 .DS_Store
+      20 Thumbs.db
+      21
+      22 # Environment and Secrets
+      23 .env
+      24 .venv/
+      25 env/
+      26 venv/
+      27 ENV/
+      28 *.log
+      29
+      30 # Large files in raw (Optional: uncomment if you don't want to upload large PDFs)
+      31 # raw/*.pdf
+      32 # raw/*.ipynb
