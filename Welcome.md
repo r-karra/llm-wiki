@@ -31,8 +31,9 @@ Simply ask me: *"Update my wiki from my main resources."* I will then:
   ```
 
 ## 📂 Current Topics
-- [[wiki/topics/hands-on-llms|Hands-on LLMs]]
-- [[wiki/topics/ibm-quantum-learning|IBM Quantum Learning]]
-- [[wiki/topics/dsa-in-python|DSA in Python]]
-- [[wiki/topics/learn-english|Learn English]]
-- [[wiki/topics/neural-networks-zero-to-hero|Neural Networks: Zero to Hero]]
+- [Hands-on LLMs](wiki/topics/hands-on-llms.md)
+- [IBM Quantum Learning](wiki/topics/ibm-quantum-learning.md)
+- [DSA in Python](wiki/topics/dsa-in-python.md)
+- [Learn English](wiki/topics/learn-english.md)
+- [Neural Networks: Zero to Hero](wiki/topics/neural-networks-zero-to-hero.md)
+- [Wiki Index](index.md)

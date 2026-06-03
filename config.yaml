@@ -3,7 +3,7 @@ site_description: A structured knowledge base for daily learning paths.
 topics_dir: wiki/topics
 output_dir: dist
 nav:
-  - Home: wiki/index.md
+  - Home: index.md
   - Learning Paths:
     - Hands-on LLMs: wiki/topics/hands-on-llms.md
     - Learn English: wiki/topics/learn-english.md

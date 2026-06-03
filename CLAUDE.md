@@ -13,7 +13,7 @@ The CLI agent maintains the wiki. The user curates sources, tracks progress, and
 raw/          -- source documents (immutable -- never modify these)
 wiki/         -- markdown pages for core concepts
 wiki/topics/  -- specific learning paths and daily progress
-wiki/index.md -- table of contents for the entire wiki
+index.md      -- table of contents and homepage (published to GitHub Pages)
 scripts/      -- automation and build tools
 ```
 
