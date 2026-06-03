@@ -1,0 +1,8 @@
+title: LLM Wiki
+description: My personal Second Brain for LLMs, Quantum, and DSA.
+theme: jekyll-theme-cayman
+
+# This helps GitHub find your markdown files
+include:
+  - wiki
+  - wiki/topics
