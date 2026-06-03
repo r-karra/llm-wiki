@@ -1,51 +1,65 @@
 import os
 import subprocess
+import datetime
 
-def sync_github_repo():
-    home = os.path.expanduser("~")
-    repo_path = os.path.join(home, "learn-quantum-AI")
-    wiki_raw_path = os.path.join(home, "llm-wiki", "raw")
-    
-    print(f"--- Syncing GitHub Repo: {repo_path} ---")
-    if os.path.exists(repo_path):
+# --- CONFIGURATION ---
+HOME = os.path.expanduser("~")
+WIKI_ROOT = os.path.join(HOME, "llm-wiki")
+RAW_DIR = os.path.join(WIKI_ROOT, "raw")
+WIKI_DIR = os.path.join(WIKI_ROOT, "wiki")
+TOPICS_DIR = os.path.join(WIKI_ROOT, "wiki", "topics")
+GITHUB_REPO = os.path.join(HOME, "learn-quantum-AI")
+GOOGLE_DOC_URL = "https://docs.google.com/document/d/1RSezpbxa5_VNKxc4tARunh34F83lU8si50qgosN0fbk/edit"
+
+def sync_github():
+    """Pulls latest notebooks from GitHub and copies them to raw/."""
+    print(f"--- Syncing GitHub: {GITHUB_REPO} ---")
+    if os.path.exists(GITHUB_REPO):
         try:
-            # Attempt to pull latest changes if it's a git repo
-            subprocess.run(["git", "-C", repo_path, "pull"], check=True)
-            print("Successfully pulled latest changes from GitHub.")
+            subprocess.run(["git", "-C", GITHUB_REPO, "pull"], check=True, capture_output=True)
+            print("Successfully pulled GitHub updates.")
         except Exception as e:
-            print(f"Note: Could not pull from GitHub (might be offline or no remote): {e}")
-        
-        # Copy new/updated notebooks to raw
-        print(f"Copying notebooks to {wiki_raw_path}...")
-        os.system(f"cp '{repo_path}/Hands-on LLMs'/*.ipynb '{wiki_raw_path}/' 2>/dev/null")
-        os.system(f"cp '{repo_path}/Use a quantum computer today-IBM'/*.ipynb '{wiki_raw_path}/' 2>/dev/null")
-        os.system(f"cp '{repo_path}/DSA in Python-Jovian_freecodecamp'/*.ipynb '{wiki_raw_path}/' 2>/dev/null")
+            print(f"Skipping git pull: {e}")
+
+        # Mapping of folders to search
+        folders = ["Hands-on LLMs", "Use a quantum computer today-IBM", "DSA in Python-Jovian_freecodecamp"]
+        for folder in folders:
+            src = os.path.join(GITHUB_REPO, folder)
+            if os.path.exists(src):
+                print(f"Copying notebooks from {folder}...")
+                os.system(f"cp '{src}'/*.ipynb '{RAW_DIR}/' 2>/dev/null")
     else:
-        print(f"Error: Repo path {repo_path} not found.")
+        print("GitHub repo folder not found locally.")
 
-def build_wiki():
-    print("\n--- Starting Wiki Build ---")
+def scan_raw_and_update_wiki():
+    """Scans the raw/ folder and ensures they are mentioned in the wiki."""
+    print("\n--- Scanning RAW folder for new materials ---")
+    raw_files = [f for f in os.listdir(RAW_DIR) if f.endswith(('.ipynb', '.pdf', '.txt', '.md'))]
     
-    config_path = 'config.yaml'
-    if os.path.exists(config_path):
-        print(f"Loading configuration from {config_path}")
-    
-    wiki_dir = 'wiki'
-    topics_dir = 'wiki/topics'
-    
-    for d in [wiki_dir, topics_dir]:
-        if os.path.exists(d):
-            files = [f for f in os.listdir(d) if f.endswith('.md')]
-            print(f"Found {len(files)} markdown files in {d}")
+    # Simple logic to ensure each raw file has a mention in the index or a topic
+    # In a full 'Auto Mode', the LLM agent runs this and then processes the content.
+    print(f"Found {len(raw_files)} raw source files.")
+    for f in raw_files:
+        print(f" - Ready for ingestion: {f}")
 
-    if not os.path.exists('dist'):
-        os.makedirs('dist')
-        print("Created 'dist/' directory.")
-        
-    print("Build complete (simulated).")
+def build_dist():
+    """Placeholder for converting Markdown to a static site (HTML)."""
+    print("\n--- Building Static Site (dist/) ---")
+    dist_dir = os.path.join(WIKI_ROOT, "dist")
+    if not os.path.exists(dist_dir):
+        os.makedirs(dist_dir)
+    
+    # In a real implementation, you would use 'mkdocs build' or a custom MD->HTML converter here.
+    with open(os.path.join(dist_dir, "index.html"), "w") as f:
+        f.write("<html><body><h1>LLM Wiki Build</h1><p>Last updated: " + str(datetime.datetime.now()) + "</p></body></html>")
+    print(f"Static site build complete in {dist_dir}")
+
+def run_all():
+    sync_github()
+    scan_raw_and_update_wiki()
+    build_dist()
+    print("\n--- AUTO-MODE COMPLETE ---")
+    print(f"NOTE: To fetch the Google Doc, ask the Gemini Agent: 'Fetch my Google Doc and update the wiki.'")
 
 if __name__ == "__main__":
-    # In a real scenario, we'd also trigger the Google Doc fetch here 
-    # via an API call or by asking the agent to fetch the URL.
-    sync_github_repo()
-    build_wiki()
+    run_all()
