@@ -1,0 +1,12 @@
+site_name: LLM Wiki
+site_description: A structured knowledge base for daily learning paths.
+topics_dir: wiki/topics
+output_dir: dist
+nav:
+  - Home: wiki/index.md
+  - Learning Paths:
+    - Hands-on LLMs: wiki/topics/hands-on-llms.md
+    - Learn English: wiki/topics/learn-english.md
+    - Neural Networks: Zero to Hero: wiki/topics/neural-networks-zero-to-hero.md
+    - IBM Quantum Learning: wiki/topics/ibm-quantum-learning.md
+    - DSA in Python: wiki/topics/dsa-in-python.md

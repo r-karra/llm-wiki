@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build and Distribution
+dist/
+build/
+site/
+
+# Obsidian
+# You may want to keep some obsidian settings, but workspace.json is usually local-only
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/appearance.json
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Environment and Secrets
+.env
+.venv/
+env/
+venv/
+ENV/
+*.log
+
+# Large files in raw (Optional: uncomment if you don't want to upload large PDFs)
+# raw/*.pdf
+# raw/*.ipynb
