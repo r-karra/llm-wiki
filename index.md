@@ -29,6 +29,12 @@ Browse your structured learning paths and daily progress logs.
   </div>
 
   <div class="path-card" style="background: rgba(22, 27, 34, 0.6); border: 1px solid rgba(48, 54, 61, 0.8); border-radius: 8px; padding: 20px; transition: transform 0.2s, border-color 0.2s; position: relative;">
+    <span style="font-size: 24px;">🧠</span>
+    <h3 style="margin: 12px 0 6px 0; font-family: 'Outfit', sans-serif;"><a href="{{ '/wiki/topics/neural-networks-zero-to-hero.html' | relative_url }}" style="color: #f0f6fc; font-weight: 700;">NN: Zero to Hero</a></h3>
+    <p style="font-size: 13px; color: #8b949e; margin-bottom: 0;">Andrej Karpathy's comprehensive series on building neural networks from scratch (micrograd, makemore, GPT).</p>
+  </div>
+
+  <div class="path-card" style="background: rgba(22, 27, 34, 0.6); border: 1px solid rgba(48, 54, 61, 0.8); border-radius: 8px; padding: 20px; transition: transform 0.2s, border-color 0.2s; position: relative;">
     <span style="font-size: 24px;">🗣️</span>
     <h3 style="margin: 12px 0 6px 0; font-family: 'Outfit', sans-serif;"><a href="{{ '/wiki/topics/learn-english.html' | relative_url }}" style="color: #f0f6fc; font-weight: 700;">Learn English</a></h3>
     <p style="font-size: 13px; color: #8b949e; margin-bottom: 0;">Daily English language proficiency practice focusing on neutralizing MTI and mastering American accents.</p>
