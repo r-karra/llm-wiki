@@ -1,6 +1,7 @@
 title: LLM Wiki
 description: My personal Second Brain for LLMs, Quantum, and DSA.
 theme: jekyll-theme-cayman
+baseurl: "/llm-wiki"
 
 # This helps GitHub find your markdown files
 include:
