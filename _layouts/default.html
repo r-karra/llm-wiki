@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>{{ page.title | default: site.title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    <!-- MathJax for rendering equations -->
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          processEscapes: true,
+          tags: 'ams'
+        },
+        options: {
+          ignoreHtmlClass: 'tex2jax_ignore',
+          processHtmlClass: 'tex2jax_process'
+        }
+      };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+  </head>
+  <body>
+    <div class="app-container">
+      
+      <!-- Top Mobile Navbar -->
+      <header class="mobile-header">
+        <button id="sidebar-toggle" aria-label="Toggle Navigation">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+        <span class="mobile-title">{{ site.title }}</span>
+        <div style="width: 24px;"></div> <!-- spacer -->
+      </header>
+
+      <!-- Sidebar Section -->
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+          <a href="{{ '/' | relative_url }}" class="sidebar-logo">
+            <span class="logo-icon">🧠</span>
+            <div class="logo-text">
+              <span class="logo-title">{{ site.title }}</span>
+              <span class="logo-subtitle">Second Brain</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="search-container">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="wiki-search" placeholder="Search wiki pages..." autocomplete="off">
+        </div>
+
+        <nav class="sidebar-nav">
+          <div class="nav-section">
+            <a href="{{ '/' | relative_url }}" class="nav-item {% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">
+              <svg class="nav-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+              <span>Home</span>
+            </a>
+          </div>
+
+          <div class="nav-section">
+            <h4 class="nav-section-title">Daily Learning Paths</h4>
+            <ul class="nav-list">
+              {% for p in site.pages %}
+                {% if p.path contains 'wiki/topics/' and p.path contains '.md' %}
+                  <li>
+                    <a href="{{ p.url | relative_url }}" class="nav-item {% if p.url == page.url %}active{% endif %}">
+                      <span class="bullet">•</span>
+                      <span>{{ p.title }}</span>
+                    </a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+
+          <div class="nav-section">
+            <h4 class="nav-section-title">Core Concepts</h4>
+            <ul class="nav-list">
+              {% for p in site.pages %}
+                {% if p.path contains 'wiki/' and p.path contains '.md' and p.path contains 'topics/' == false and p.path contains 'log.md' == false %}
+                  <li>
+                    <a href="{{ p.url | relative_url }}" class="nav-item {% if p.url == page.url %}active{% endif %}">
+                      <span class="bullet">•</span>
+                      <span>{{ p.title }}</span>
+                    </a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+
+          <div class="nav-section">
+            <h4 class="nav-section-title">Tracking</h4>
+            <ul class="nav-list">
+              {% for p in site.pages %}
+                {% if p.path == 'wiki/log.md' %}
+                  <li>
+                    <a href="{{ p.url | relative_url }}" class="nav-item {% if p.url == page.url %}active{% endif %}">
+                      <svg class="nav-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                      <span>{{ p.title }}</span>
+                    </a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </nav>
+      </aside>
+
+      <!-- Main Content Section -->
+      <main class="main-content">
+        <div class="content-wrapper">
+          <article class="markdown-body">
+            {{ content }}
+          </article>
+          
+          <footer class="site-footer">
+            <div class="footer-divider"></div>
+            <div class="footer-content">
+              <span>LLM Wiki - Personal Learning Second Brain</span>
+              <span>Updated: {{ "now" | date: "%B %Y" }}</span>
+            </div>
+          </footer>
+        </div>
+      </main>
+      
+    </div>
+
+    <!-- JS Helper -->
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  </body>
+</html>
