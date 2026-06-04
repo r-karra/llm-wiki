@@ -9,6 +9,10 @@ Welcome to your personal "Second Brain" for technical learning. This wiki is a s
 - [Neural Networks: Zero to Hero](wiki/topics/neural-networks-zero-to-hero.md) - Andrej Karpathy's deep learning course.
 - [IBM Quantum Learning](wiki/topics/ibm-quantum-learning.md) - Quantum computing education and resources.
 - [DSA in Python](wiki/topics/dsa-in-python.md) - Problem solving with algorithms and data structures using Python.
+- [TIFR GS Preparation](wiki/topics/tifr-gs-preparation.md) - Graduate school entrance exam preparation.
+- [Save Planet & Human Wellbeing](wiki/topics/save-planet-and-wellbeing.md) - Applying mathematics and AI to ecological restoration.
+- [Super Book Project](wiki/topics/super-book-project.md) - Bible LLM mobile app co-pilot.
+- [KnowledgeFace Prototype](wiki/topics/knowledgeface-prototype.md) - Scholar AI / KnowledgeFace web platform prototype.
 
 ## Core Concepts
 
@@ -21,6 +25,7 @@ Welcome to your personal "Second Brain" for technical learning. This wiki is a s
 - [Complexity Analysis](wiki/complexity-analysis.md) - Evaluating algorithm efficiency (Big O).
 - [Neural Networks](wiki/neural-networks.md) - Fundamental architectures for deep learning.
 - [Large Language Models](wiki/large-language-models.md) - Understanding transformer-based architectures.
+- [JAX Ecosystem](wiki/jax-ecosystem.md) - Numerical programming stack and DeepMind libraries.
 
 ## Updates
 - [Daily Learning Log](wiki/log.md) - Append-only record of daily progress.

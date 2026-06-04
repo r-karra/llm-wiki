@@ -37,18 +37,24 @@ cd ~/llm-wiki && git add . && git commit -m "Update wiki" && git push
 
 ## 📂 Wiki Directory
 
-### Daily Learning Paths
+### Daily Learning Paths & Projects
 - [Hands-on LLMs](wiki/topics/hands-on-llms.md)
 - [IBM Quantum Learning](wiki/topics/ibm-quantum-learning.md)
 - [DSA in Python](wiki/topics/dsa-in-python.md)
 - [Learn English](wiki/topics/learn-english.md)
 - [Neural Networks: Zero to Hero](wiki/topics/neural-networks-zero-to-hero.md)
+- [TIFR GS Preparation](wiki/topics/tifr-gs-preparation.md)
+- [Save Planet & Human Wellbeing](wiki/topics/save-planet-and-wellbeing.md)
+- [Super Book Project](wiki/topics/super-book-project.md)
+- [KnowledgeFace Prototype](wiki/topics/knowledgeface-prototype.md)
 
 ### Core Concepts
 - [Tokenization](wiki/tokenization.md) | [Embeddings](wiki/embeddings.md)
 - [Qubits](wiki/qubits.md) | [Quantum Gates](wiki/quantum-gates.md) | [Entanglement](wiki/entanglement.md)
 - [Binary Search](wiki/binary-search.md) | [Complexity Analysis](wiki/complexity-analysis.md)
+- [Neural Networks](wiki/neural-networks.md) | [Large Language Models](wiki/large-language-models.md) | [JAX Ecosystem](wiki/jax-ecosystem.md)
 
 ### Tracking
 - [Daily Learning Log](wiki/log.md)
+- [Wiki Index (Homepage)](index.md)
 - [Wiki Index (Homepage)](index.md)

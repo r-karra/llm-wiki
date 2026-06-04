@@ -2,6 +2,21 @@
 
 An append-only record of daily progress and wiki updates.
 
+## 2026-06-04
+- **Google Doc Sync**: Ingested latest learning roadmaps and projects.
+- **Topics Expanded**:
+    - Updated [[topics/learn-english|Learn English]] with American English mechanics, grammar comparisons, daily algorithms, and tools.
+- **Topics/Projects Added**:
+    - [[topics/tifr-gs-preparation|TIFR GS Preparation]] - Integrated Ph.D. roadmap (LIDS, Physics, Math).
+    - [[topics/save-planet-and-wellbeing|Save Planet & Human Wellbeing]] - Mathematical models and AI applications for ecological restoration.
+    - [[topics/super-book-project|Super Book Project]] - Bible LLM mobile app concept and features.
+    - [[topics/knowledgeface-prototype|KnowledgeFace Prototype]] - Scholar AI platform structure, navigation, and contribution guidelines.
+- **Concepts Added**:
+    - [[jax-ecosystem|JAX Ecosystem]] - Compilation, autodiff, and DeepMind libraries.
+    - [[neural-networks|Neural Networks]] - Concept page on deep learning architectures and backpropagation.
+    - [[large-language-models|Large Language Models]] - Concept page on transformers, attention, LoRA, and Gemma.
+- **Automation**: Refactored `scripts/build.py` to resolve the workspace root dynamically.
+
 ## 2026-06-03
 - **Initial Setup**: Created the LLM Wiki structure for learning paths.
 - **Topics Added**:

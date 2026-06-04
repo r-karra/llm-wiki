@@ -4,7 +4,8 @@ import datetime
 
 # --- CONFIGURATION ---
 HOME = os.path.expanduser("~")
-WIKI_ROOT = os.path.join(HOME, "llm-wiki")
+# Dynamically determine the root of the wiki project based on where this script is located
+WIKI_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW_DIR = os.path.join(WIKI_ROOT, "raw")
 WIKI_DIR = os.path.join(WIKI_ROOT, "wiki")
 TOPICS_DIR = os.path.join(WIKI_ROOT, "wiki", "topics")
