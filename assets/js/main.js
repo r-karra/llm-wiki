@@ -105,4 +105,26 @@ document.addEventListener("DOMContentLoaded", function() {
     headerDiv.appendChild(button);
     pre.insertBefore(headerDiv, pre.firstChild);
   });
+
+  // 4. Render Wiki-links client-side (Obsidian compatibility)
+  const markdownBody = document.querySelector(".markdown-body");
+  if (markdownBody) {
+    const base = window.siteBaseUrl || "/";
+    let html = markdownBody.innerHTML;
+    // Match [[path/to/page|Label]] or [[page]]
+    const wikiLinkRegex = /\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g;
+    html = html.replace(wikiLinkRegex, function(match, path, label) {
+      path = path.trim();
+      label = label ? label.trim() : path.split('/').pop().replace(/-/g, ' ');
+      
+      let url = "";
+      if (path.startsWith("topics/")) {
+        url = `${base}wiki/topics/${path.replace("topics/", "")}.html`;
+      } else {
+        url = `${base}wiki/${path}.html`;
+      }
+      return `<a href="${url}" class="wiki-link">${label}</a>`;
+    });
+    markdownBody.innerHTML = html;
+  }
 });

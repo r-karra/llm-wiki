@@ -33,6 +33,7 @@ American English favors directness, contractions, and phrasal verbs over formal 
   - Formal: "I will *calculate* the cost." $\rightarrow$ American: "I'll *figure out* the cost."
 - **Tense Shifts**: Use Simple Past instead of Present Perfect in casual settings:
   - British/B1: "I have just finished the code." $\rightarrow$ American: "I just finished the code."
+- **Tenses Guide**: See the comprehensive [[topics/english-tenses|English Tenses Reference]] for the formulas, signal words, and examples of all 12 tenses and conditional structures.
 
 ## 3. Daily Practice Loop & "Algorithms"
 
