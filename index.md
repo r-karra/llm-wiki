@@ -47,6 +47,12 @@ Browse your structured learning paths and daily progress logs.
   </div>
 
   <div class="path-card" style="border-radius: 8px; padding: 20px; position: relative;">
+    <span style="font-size: 24px;">❓</span>
+    <h3 style="margin: 12px 0 6px 0; font-family: 'Outfit', sans-serif;"><a href="{{ '/wiki/topics/english-questions.html' | relative_url }}" style="font-weight: 700;">English Questions</a></h3>
+    <p style="font-size: 13px; margin-bottom: 0;">Detailed guide on forming questions, word order, passive voice interrogatives, and question tags.</p>
+  </div>
+
+  <div class="path-card" style="border-radius: 8px; padding: 20px; position: relative;">
     <span style="font-size: 24px;">🎓</span>
     <h3 style="margin: 12px 0 6px 0; font-family: 'Outfit', sans-serif;"><a href="{{ '/wiki/topics/tifr-gs-preparation.html' | relative_url }}" style="font-weight: 700;">TIFR GS Prep</a></h3>
     <p style="font-size: 13px; margin-bottom: 0;">Roadmap and notes for the Tata Institute of Fundamental Research Graduate School entrance exam.</p>

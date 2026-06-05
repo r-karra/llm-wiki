@@ -34,6 +34,7 @@ American English favors directness, contractions, and phrasal verbs over formal 
 - **Tense Shifts**: Use Simple Past instead of Present Perfect in casual settings:
   - British/B1: "I have just finished the code." $\rightarrow$ American: "I just finished the code."
 - **Tenses Guide**: See the comprehensive [[topics/english-tenses|English Tenses Reference]] for the formulas, signal words, and examples of all 12 tenses and conditional structures.
+- **Questions Guide**: Refer to the [[topics/english-questions|English Grammar: Questions]] guide for detailed rules on word order, passive questions, and question tags.
 
 ## 3. Daily Practice Loop & "Algorithms"
 

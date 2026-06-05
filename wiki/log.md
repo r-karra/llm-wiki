@@ -3,6 +3,9 @@
 An append-only record of daily progress and wiki updates.
 
 ## 2026-06-05
+- **English Practice Integration**: Processed `raw/English_practice.txt` and expanded the grammar section.
+    - Created [[topics/english-questions|English Grammar: Questions]] covering word order, auxiliary verbs (do/does/did), passive voice questions, and question tags.
+    - Linked the questions guide in [[topics/learn-english|Learn English]] and added a quick-access card to the [[index|Homepage]].
 - **Resource Integration**: Ingested and structured `raw/tenses_table.pdf` into the wiki.
     - Created [[topics/english-tenses|English Tenses Reference]] containing a comprehensive breakdown of the 12 English tenses and conditional structures.
     - Linked the tenses guide in the main [[topics/learn-english|Learn English]] path.
