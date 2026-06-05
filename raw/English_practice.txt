@@ -70,3 +70,316 @@ NOTE!
 
 Subject question	Object question
 Who phoned John?	Who did John phone?
+
+Questions in Passive
+
+How do we form questions in Passive voice?
+Questions in Passive are formed with to be and the past participle *.
+
+1. Questions without questions words in Passive (Simple Present)
+Form of be	Subject	past participle	Complement	Yes/No	Subject	Auxiliary (+ n't)
+Is	the test	written	in room 311?	Yes,
+No,
+No,	it
+it
+it	is.
+is not.
+isn't.
+Are	grapes	grown	in California?	Yes,
+No,
+No,	they
+they
+they	are.
+are not.
+aren't.
+2. Questions with questions words in Passive (Simple Present)
+Question word	Form of be	Subject	past participle	Complement	Answer
+Where	is	the test	written?	 	The test is written in room 311.
+Why	are	grapes	grown	in California?	Grapes are grown in California
+because it's warm and sunny.
+3. Questions without questions words in Passive (Simple Past)
+Form of be	Subject	past participle	Complement	Yes/No	Subject	Auxiliary (+ n't)
+Was	the book	taken	to the classroom?	Yes,
+No,
+No,	it
+it
+it	was.
+was not.
+wasn't.
+Were	the students	taught	at home?	Yes,
+No,
+No,	they
+they
+they	were.
+were not.
+weren't.
+4. Questions with question words in Passive (Simple Past)
+Question word	Form of be	Subject	past participle	Complement	Answer
+Where	was	the book	taken?	 	The book was taken to the classroom.
+Why	were	the students	taught	at home?	The students were taught at home
+because the school was closed.
+5. Other tenses
+Here are some more examples in other tenses. Let's start with the simple forms:
+
+Tense	Auxiliary	Subject	Verb
+Present Perfect	Has	the house	been built?
+Past Perfect	Had	the house	been built?
+will-future	Will	the house	be built?
+going to-future	Is	the house	going to be built?
+Future Perfect	Will	the house	have been built?
+Conditional	Would	the house	be built?
+Conditional Perfect	Would	the house	have been built?
+And here are two progessive forms:
+
+Tense	Auxiliary	Subject	Verb
+Present Progressive	Is	the house	being built?
+Past Progressive	Was	the house	being built?
+* past participle:
+
+regular verbs → infinitive + -ed
+irregular verbs → 3rd column of the table of the irregular verbs
+
+Questions in the Simple Past, Questions with did
+
+1. Questions without question words in the Simple Past
+Auxiliary	Subject	Verb	Complement	Yes/No	Subject	Auxiliary (+ n't)
+Did	Max	play	football?	Yes,
+No,	he
+he	did.
+didn't.
+Did	you	watch	the film yesterday?	Yes,
+No,	I
+I	did.
+didn't.
+BUT:
+to be	Subject	Complement	Yes/No	Subject	Auxiliary (+ n't)
+Were	you	in Leipzig last week?	Yes,
+No,	I
+I	was.
+wasn't.
+2. Questions with question words in the Simple Past
+Question word	Auxiliary	Subject	Verb	Complement	Answer
+What	did	you	play	yesterday evening?	I played computer games.
+When	did	she	meet	her boyfriend?	She met him yesterday.
+Where	did	they	go	after the match?	They went to a café.
+BUT:
+Question word	to be	Subject	Complement	Answer
+Where	were	you	yesterday?	I was at the cinema.
+
+Questions in the Simple Present, Questions with do, does
+
+1. Questions without question words in the Simple Present
+Auxiliary	Subject	Verb	Complement	Yes/No	Subject	Auxiliary
+(+ n't)
+Do	you	read	books?	Yes,
+No,	I
+I	do.
+don't.
+Does	Peter	play	football?	Yes,
+No,	he
+he	does.
+doesn't.
+2. Questions with question words in the Simple Present
+Question word	Auxiliary	Subject	Verb	Complement	Answer
+What	do	you	play	on your computer?	I play games on my computer.
+When	does	your mother	go	to work?	She goes to work at 6 o'clock.
+Where	do	you	meet	your friends?	I meet them at the bus stop.
+
+Questions with can
+
+Use can every time regardless the subject.
+
+Auxiliary	Subject	Verb	Complement	Short answer
+Can	you	speak	English?	Yes,	I	can.
+Can	you	climb	a tree?	No,
+No,	I
+I	can't.
+cannot.
+Can	he	play	rugby?	Yes,	he	can.
+Can	Mandy	read	poems?	Yes,	she	can.
+Can	they	sing	nice songs?	No,
+No,	they
+they	can't.
+cannot.
+In WH-questions (questions with question words) can goes after the question word.
+
+Question word	Auxiliary	Subject	Verb	Complement	Answer
+What	can	they	ride?	 	They can ride skateboards. 
+Where	can	Frank	play	the trumpet?	Frank can play the trumpet in his room.
+When	can	she	see	her friends? 	She can see her friends after school.
+
+Questions with have and have got
+
+1. Yes/No Questions and short answers
+1.1. have as a main verb
+Auxiliary	Subject	Verb	Complement	Yes/No	Subject	Auxiliary (+ n't)
+Do	you	have	a cat?	Yes,	I	do.
+Do	you	have	a new car? 	No,	we	don't.
+Does	your brother 	have	a bike? 	Yes,	he	does.
+1.2. have as auxiliary (have got)
+Auxiliary	Subject	Verb	Complement	Yes/No	Subject	Auxiliary (+ n't)
+Have	you	got	a cat?	Yes,	I	have.
+Have	you	got	a new car?	No,	we	haven't.
+Has	your brother	got	a bike?	Yes,	he	has.
+2. Questions with question words (Wh-questions)
+2.1. have as a main verb
+Questions word	Auxiliary	Subject	Complement	Answer
+How many brothers	do	you	have?	I have three brothers.
+2.2. have as auxiliary (have got)
+Questions word	Auxiliary	Subject	Complement	Answer
+How many brothers	have	you	got?	I've got three brothers.
+NOTE:
+
+In American English we only use have. In this case have is a main verb. So we need the auxiliary do for questions and short answers.
+In British English we usually use have got. In this case have is an auxiliary.
+
+Short answers in English
+
+Why do use short answers?
+We do not use only Yes or No to answer a question. This is not polite. We use short answers. Here are some examples:
+
+Yes/No question	Short answer
+Is	he	 	from London?	Yes,
+No,	he
+he	is.
+isn't. *
+Are	the boys 	 	at your school?	Yes,
+No,	they
+they	are.
+aren't. *
+Can	you	play	ice-hockey?	Yes,
+No,	I
+I	can.
+can't. *
+Have	we	got	ketchup?	Yes,
+No,	we
+we	have.
+haven't. *
+Has	she	got	a mobile phone?	Yes,
+No,	she
+she	has.
+hasn't. *
+Do	they	live	in a flat? 	Yes,
+No,	they
+they	do.
+don't. *
+Does	he	work	in an office? 	Yes,
+No,	he
+he	does.
+doesn't. *
+Did	it	rain	yesterday?	Yes,
+No,	it
+it	did.
+didn't. *
+Are	they	writing	a test now? 	Yes,
+No,	they
+they	are.
+aren't. *
+Have	you	been	to Scotland? 	Yes,
+
+		    No,	I
+I	have.
+haven't. *
+Has	she	been waiting 	for long? 	Yes,
+
+		    No,,	she
+she	has.
+hasn't. *
+Is	he	going to see 	his sister? 	Yes,
+
+		    No,	he
+he	is.
+isn't. *
+Will	we	arrive	on time? 	Yes,
+
+		    No,	we
+we	will.
+won't. *
+* Use long forms instead of contracted forms to emphasize your answer.
+
+Do you like fish? – No, I do not.
+
+which or what
+
+When do we use which and what?
+Word	Explanation	Example
+which	You have a limited choice of things.	Which lemonade do you like – green or pink?
+what	You have an unlimited choice of things.	What lemonade do you like?
+With nouns that refer to people, sometimes which is used – even if there is an unlimited choice.
+
+It is often possible to use what or which, like in the following example.
+
+What is the largest country in the world?
+Which is the largest country in the world?
+BUT – if you choose sth from a group of things, use which.
+
+Here are three apples. Which would you like?
+
+Yes/No questions and short answers with the verb be
+
+Yes/No questions – be (am, are, is)
+Subject and verb change their position in statement and question.
+
+Sentence: You are from Germany.
+Question: Are you from Germany?
+We always use the short answer, not only Yes or No.
+
+NOTE:
+
+If the answer is Yes, we always use the long form. → Example: Yes, I am.
+
+If the answer is No, we either use the long or the contracted form (short form). → Example: No, I am not → No, I'm not.
+
+Verb	Subject	Complement	Yes/No	Subject	Verb
+Are	you	from Germany?	Yes,	I	am.
+Are	you	from Germany?	No,	I	am not
+'m not.
+Is	he	your friend?	Yes,	he	is.
+Are	Peter and John	from England?	Yes,	they	are.
+
+Question tags in English
+
+1. Use
+frequently used in spoken English when you want someone to agree or disagree
+
+2. Form
+positive statement → question tag negative → You are Tom, aren't you?
+negative statement → question tag positive → He isn't Joe, is he?
+3. Examples
+3.1. with auxiliaries
+You've got a car, haven't you?
+3.2. without auxiliaries (don't, doesn't, didn't)
+They play football on Sundays, don't they?
+She plays football on Sundays, doesn't she?
+They played football on Sundays, didn't they?
+Questions tags are used to keep a conversation going. You can agree or refuse to a sentence with a question tag.
+
+Affirmative sentence: He is from Germany, isn't he?
+Negative sentence: He isn't from Germany, is he?
+Possible answers are Yes or No. If you use Yes, do not use contracted forms. If you use No, contracted form are possible.
+
+Yes, he is.
+No, he is not. or No, he isn't. or No, he's not.
+4. Special points
+4.1. Although the negative word not is not in the sentence, the sentence can be negative. Then we use the positive question tag.
+He never goes out with his dog, does he?
+4.2. If have is a main verb in the sentence and refers to states, there are two possible sentences – We have a car, _____?
+We have a car, haven't we? mostly British English
+We have a car, don't we? mostly American English
+4.3. Use will/would with imperatives (Simple Present).
+Open the window, will you?
+Open the window, would you?
+Don't open your books, will you?
+4.4. We use won't with a polite request.
+Open the window, won't you?
+4.5. We use shall after Let's.
+Let's take the next bus, shall we?
+4.6. Auxiliary must
+We must be at home at 8 pm, mustn't we?
+
+Yes, we must.
+No, we needn't.
+4.7. Personal pronoun I
+I am late, aren't I?
+
+This form is commonly used (mostly informal). It is because there is no contracted form for am + not (amn't). Grammatically correct would be: am I not. This is only used in formal situations.
